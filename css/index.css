@@ -1,0 +1,58 @@
+header{
+    background-color: rgb(0, 0, 0);
+    text-align: center;
+    color: aliceblue;
+    height: 140px;
+    position: relative;
+    border: 3px solid #4e4e4e;
+    
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    font-family: Arial;
+    margin: 0;
+    padding: 0;
+}
+nav ul{
+    color: black;
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: black;
+    padding: 35px;
+    text-shadow: 2px 2px gray;
+}
+
+main {
+    display: flex;
+    padding: 2rem;
+}
+
+.content{
+    flex: 3;
+    padding-right: 2rem;
+}
+
+aside{
+    flex: 1;
+    background-color: black;
+    padding: 1rem;
+    border-left: 7px solid #ccc;
+}
+
+main article {
+    border-radius: 11px;
+    background: #000000;
+    box-shadow:  26px 26px 51px #000000,
+             -26px -26px 51px #000000;
+    background-color: rgb(218, 31, 31);
+    text-align: center;
+}
